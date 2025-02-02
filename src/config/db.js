@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        const dbURI = 'mongodb+srv://vladleurda02:ree1IndvHO3ZPgOs@main.n0hck.mongodb.net/your-database-name?retryWrites=true&w=majority&appName=main';
+        const dbURI = 'mongodb://mongo:CcOcHDqAUpxkGAxGbdMfoVIRNTwHWYQd@mongodb.railway.internal:27017';
         await mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
         console.log('MongoDB connected successfully');
     } catch (error) {
