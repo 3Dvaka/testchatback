@@ -4,7 +4,7 @@ const app = require('./app');
 const socketIo = require('socket.io');
 
 const PORT = 5000;
-const MONGO_URI = 'mongodb+srv://vladleurda02:ree1IndvHO3ZPgOs@main.n0hck.mongodb.net/your-database-name?retryWrites=true&w=majority&appName=main';
+const MONGO_URI = 'mongodb+srv://vladleurda02:ree1IndvHO3ZPgOs@main.n0hck.mongodb.net/?retryWrites=true&w=majority&appName=main';
 
 const connectDB = async () => {
     try {
