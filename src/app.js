@@ -16,7 +16,7 @@ app.use('/api/messages', messageRoutes);
 
 
 const corsOptions = {
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://testchat-ma1c.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, 
 };
